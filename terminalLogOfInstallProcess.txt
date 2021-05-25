@@ -1,0 +1,559 @@
+ 1949  git push fundooNotesAngular CRUD-Functionality 
+ 1950  git status 
+ 1951  git commit -a -m "Added: Delete note completed."
+ 1952  git status 
+ 1953  git push fundooNotesAngular CRUD-Functionality 
+ 1954  git status 
+ 1955  ng serve --port 4201
+ 1956  ng serve
+ 1957  ng serve --port 4201
+ 1958  npm init
+ 1959  npm i webpack --save
+ 1960  webpack
+ 1961  sudo apt install webpack
+ 1962  npm start
+ 1963  history > history_for_print.txt
+ 1964  git init
+ 1965  git add remote https://github.com/sphoujdar/webpackDemoFirst.git webpackDemoFirst
+ 1966  git remote add https://github.com/sphoujdar/webpackDemoFirst.git webpackDemoFirst
+ 1967  git remote add webpackDemoFirst https://github.com/sphoujdar/webpackDemoFirst.git
+ 1968  git status 
+ 1969  git add -A
+ 1970  nano .gitignore
+ 1971  git status 
+ 1972  git rm --cached package-lock.json
+ 1973  git status 
+ 1974  git rm --cached ./node_modules
+ 1975  git rm -r --cached ./node_modules
+ 1976  git status 
+ 1977  git add -A
+ 1978  git push webpackDemoFirst master
+ 1979  git push webpackDemoFirst maim
+ 1980  git push webpackDemoFirst main
+ 1981  git branch -M main 
+ 1982  git branch
+ 1983  git branch --all
+ 1984  git fetch
+ 1985  git status 
+ 1986  git commit -a -m "First Commit"
+ 1987  git status 
+ 1988  git push webpackDemoFirst master 
+ 1989  npm start
+ 1990  npm install css-loader --save-dev
+ 1991  npm install style-loader --save-dev
+ 1992  npm start
+ 1993  git status 
+ 1994  git add -A
+ 1995  git commit -a -m "Added: Style loader and CSS loader."
+ 1996  git push webpackDemoFirst master 
+ 1997  git status 
+ 1998  npm init
+ 1999  npm init -y
+ 2000  npm i
+ 2001  npm start
+ 2002  npm i typescript@2.3.4
+ 2003  npm start
+ 2004  history
+
+--------------------------------------------------TERMINAL LOG--------------------------------------------------
+
+phoujdar@phoujdar:~/workspace-one/angularWebpackDemo$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (angularwebpackdemo) npm WARN init canceled
+phoujdar@phoujdar:~/workspace-one/angularWebpackDemo$ npm init -y
+Wrote to /home/phoujdar/workspace-one/angularWebpackDemo/package.json:
+
+{
+  "name": "angularWebpackDemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+
+   ╭────────────────────────────────────────────────────────────────╮
+   │                                                                │
+   │      New major version of npm available! 6.14.13 → 7.14.0      │
+   │   Changelog: https://github.com/npm/cli/releases/tag/v7.14.0   │
+   │               Run npm install -g npm to update!                │
+   │                                                                │
+   ╰────────────────────────────────────────────────────────────────╯
+
+phoujdar@phoujdar:~/workspace-one/angularWebpackDemo$ npm i
+npm WARN deprecated babel-preset-es2015@6.24.1: 🙌  Thanks for using Babel: we recommend using babel-preset-env now: please read https://babeljs.io/env to update!
+npm WARN deprecated html-webpack-plugin@2.30.1: out of support
+npm WARN deprecated @angular/http@4.2.6: Package no longer supported. Use @angular/common instead, see https://angular.io/guide/deprecations#angularhttp
+npm WARN deprecated core-js@2.6.12: core-js@<3.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.
+npm WARN deprecated chokidar@1.7.0: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+npm WARN deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+npm WARN deprecated browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+npm WARN deprecated json3@3.3.2: Please use the native JSON object instead of JSON 3
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+
+> core-js@2.6.12 postinstall /home/phoujdar/workspace-one/angularWebpackDemo/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon: 
+> https://opencollective.com/core-js 
+> https://www.patreon.com/zloirock 
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN notsup Unsupported engine for karma@1.7.1: wanted: {"node":"0.10 || 0.12 || 4 || 5 || 6 || 7 || 8"} (current: {"node":"15.14.0","npm":"6.14.13"})
+npm WARN notsup Not compatible with your version of node/npm: karma@1.7.1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.0.0 (node_modules/chokidar/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.3.1 (node_modules/watchpack/node_modules/chokidar/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN @angular/compiler-cli@4.4.7 requires a peer of @angular/compiler@4.4.7 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/compiler-cli@4.4.7 requires a peer of @angular/core@4.4.7 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/platform-server@4.4.7 requires a peer of @angular/animations@4.4.7 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/platform-server@4.4.7 requires a peer of @angular/core@4.4.7 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/platform-server@4.4.7 requires a peer of @angular/common@4.4.7 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/platform-server@4.4.7 requires a peer of @angular/compiler@4.4.7 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/platform-server@4.4.7 requires a peer of @angular/platform-browser@4.4.7 but none is installed. You must install peer dependencies yourself.
+npm WARN angularWebpackDemo@1.0.0 No description
+npm WARN angularWebpackDemo@1.0.0 No repository field.
+
+added 882 packages from 978 contributors and audited 885 packages in 26.39s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+found 29 vulnerabilities (17 low, 2 moderate, 9 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+phoujdar@phoujdar:~/workspace-one/angularWebpackDemo$ npm start
+
+> angularWebpackDemo@1.0.0 start /home/phoujdar/workspace-one/angularWebpackDemo
+> webpack-dev-server --inline --hot --progress--port 8080
+
+webpack-dev-server 2.4.1
+webpack 2.2.1
+Usage: https://webpack.js.org/configuration/dev-server/
+
+Config options:
+  --config  Path to the config file
+                         [string] [default: webpack.config.js or webpackfile.js]
+  --env     Enviroment passed to the config, when it is a function
+
+Basic options:
+  --context    The root directory for resolving entry point and stats
+                                       [string] [default: The current directory]
+  --entry      The entry point                                          [string]
+  --watch, -w  Watch the filesystem for changes                        [boolean]
+  --debug      Switch loaders to debug mode                            [boolean]
+  --devtool    Enable devtool for better debugging experience (Example:
+               --devtool eval-cheap-module-source-map)                  [string]
+  -d           shortcut for --debug --devtool eval-cheap-module-source-map
+               --output-pathinfo                                       [boolean]
+  -p           shortcut for --optimize-minimize --define
+               process.env.NODE_ENV="production"                       [boolean]
+  --progress   Print compilation progress in percentage                [boolean]
+
+Module options:
+  --module-bind       Bind an extension to a loader                     [string]
+  --module-bind-post                                                    [string]
+  --module-bind-pre                                                     [string]
+
+Output options:
+  --output-path                 The output path for compilation assets
+                                       [string] [default: The current directory]
+  --output-filename             The output filename of the bundle
+                                                   [string] [default: [name].js]
+  --output-chunk-filename       The output filename for additional chunks
+       [string] [default: filename with [id] instead of [name] or [id] prefixed]
+  --output-source-map-filename  The output filename for the SourceMap   [string]
+  --output-public-path          The public path for the assets          [string]
+  --output-jsonp-function       The name of the jsonp function used for chunk
+                                loading                                 [string]
+  --output-pathinfo             Include a comment with the request for every
+                                dependency (require, import, etc.)     [boolean]
+  --output-library              Expose the exports of the entry point as library
+                                                                        [string]
+  --output-library-target       The type for exposing the exports of the entry
+                                point as library                        [string]
+
+Advanced options:
+  --records-input-path       Path to the records file (reading)         [string]
+  --records-output-path      Path to the records file (writing)         [string]
+  --records-path             Path to the records file                   [string]
+  --define                   Define any free var in the bundle          [string]
+  --target                   The targeted execution enviroment          [string]
+  --cache                    Enable in memory caching
+                      [boolean] [default: It's enabled by default when watching]
+  --watch-stdin, --stdin     close when stdin ends                     [boolean]
+  --watch-aggregate-timeout  Timeout for gathering changes while watching
+  --watch-poll               The polling interval for watching (also enable
+                             polling)                                  [boolean]
+  --hot                      Enables Hot Module Replacement            [boolean]
+  --prefetch                 Prefetch this request (Example: --prefetch
+                             ./file.js)                                 [string]
+  --provide                  Provide these modules as free vars in all modules
+                             (Example: --provide jQuery=jquery)         [string]
+  --labeled-modules          Enables labeled modules                   [boolean]
+  --plugin                   Load this plugin                           [string]
+  --bail                     Abort the compilation on first error      [boolean]
+  --profile                  Profile the compilation and include information in
+                             stats                                     [boolean]
+  --hot-only                 Do not refresh page if HMR fails          [boolean]
+
+Resolving options:
+  --resolve-alias         Setup a module alias for resolving (Example:
+                          jquery-plugin=jquery.plugin)                  [string]
+  --resolve-extensions    Setup extensions that should be used to resolve
+                          modules (Example: --resolve-extensions .es6 .js)
+                                                                         [array]
+  --resolve-loader-alias  Setup a loader alias for resolving            [string]
+
+Optimizing options:
+  --optimize-max-chunks      Try to keep the chunk count below a limit
+  --optimize-min-chunk-size  Try to keep the chunk size above a limit
+  --optimize-minimize        Minimize javascript and switches loaders to
+                             minimizing                                [boolean]
+
+Stats options:
+  --color, --colors   Enables/Disables colors on the console
+                                           [boolean] [default: (supports-color)]
+  --info              Info                             [boolean] [default: true]
+  --quiet             Quiet                                            [boolean]
+  --client-log-level  Log level in the browser (info, warning, error or none)
+                                                      [string] [default: "info"]
+
+SSL options:
+  --https           HTTPS                                              [boolean]
+  --key             Path to a SSL key.                                  [string]
+  --cert            Path to a SSL certificate.                          [string]
+  --cacert          Path to a SSL CA certificate.                       [string]
+  --pfx             Path to a SSL pfx file.                             [string]
+  --pfx-passphrase  Passphrase for pfx file.                            [string]
+
+Response options:
+  --content-base          A directory or URL to serve HTML content from.[string]
+  --watch-content-base    Enable live-reloading of the content-base.   [boolean]
+  --history-api-fallback  Fallback to /index.html for Single Page Applications.
+                                                                       [boolean]
+  --compress              Enable gzip compression                      [boolean]
+
+Connection options:
+  --port    The port
+  --socket  Socket to listen
+  --public  The public hostname/ip address of the server                [string]
+  --host    The hostname/ip address the server will bind to
+                                                 [string] [default: "localhost"]
+
+Options:
+  --help, -h     Show help                                             [boolean]
+  --version, -v  Show version number                                   [boolean]
+  --lazy         Lazy                                                  [boolean]
+  --inline       Inline mode (set to false to disable including client scripts
+                 like livereload)                      [boolean] [default: true]
+  --open         Open default browser                                  [boolean]
+
+Unknown argument: progress--port
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! angularWebpackDemo@1.0.0 start: `webpack-dev-server --inline --hot --progress--port 8080`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the angularWebpackDemo@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/phoujdar/.npm/_logs/2021-05-25T05_46_41_038Z-debug.log
+phoujdar@phoujdar:~/workspace-one/angularWebpackDemo$ npm start
+
+> angularWebpackDemo@1.0.0 start /home/phoujdar/workspace-one/angularWebpackDemo
+> webpack-dev-server --inline --hot --progress --port 8080
+
+ 10% building modules 3/3 modules 0 active                                         
+Project is running at http://localhost:8080/
+webpack output is served from /
+404s will fallback to /index.html
+ 10% building modules 5/11 modules 6 active ...o/node_modules/webpack/hot/emitter.js
+[at-loader] Using typescript@2.9.2 from typescript and "tsconfig.json" from /home/phoujdar/workspace-one/angularWebpackDemo/tsconfig.json.
+
+ 94% asset optimization                                                                  
+[at-loader] Checking started in a separate process...
+
+[at-loader] Checking finished with 3 errors
+chunk    {0} vendor.bundle.js (vendor) 2.74 MB {2} [initial] [rendered]
+chunk    {1} app.bundle.js (app) 2.82 kB {0} [initial] [rendered]
+chunk    {2} polyfills.bundle.js (polyfills) 517 kB [entry] [rendered]
+
+ERROR in ./src/app/app.component.ts
+Module not found: Error: Can't resolve './app.component.css' in '/home/phoujdar/workspace-one/angularWebpackDemo/src/app'
+ @ ./src/app/app.component.ts 22:13-43
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./src/main.ts
+
+ERROR in [at-loader] ./node_modules/@types/node/index.d.ts:20:1 
+    TS1084: Invalid 'reference' directive syntax.
+
+ERROR in [at-loader] ./node_modules/rxjs/Subject.d.ts:24:5 
+    TS2416: Property 'lift' in type 'Subject<T>' is not assignable to the same property in base type 'Observable<T>'.
+  Type '<R>(operator: Operator<T, R>) => Observable<T>' is not assignable to type '<R>(operator: Operator<T, R>) => Observable<R>'.
+    Type 'Observable<T>' is not assignable to type 'Observable<R>'.
+      Type 'T' is not assignable to type 'R'.
+
+ERROR in [at-loader] ./node_modules/rxjs/observable/dom/WebSocketSubject.d.ts:44:5 
+    TS2416: Property 'lift' in type 'WebSocketSubject<T>' is not assignable to the same property in base type 'AnonymousSubject<T>'.
+  Type '<R>(operator: Operator<T, R>) => WebSocketSubject<R>' is not assignable to type '<R>(operator: Operator<T, R>) => Observable<T>'.
+    Type 'WebSocketSubject<R>' is not assignable to type 'Observable<T>'.
+      Types of property 'operator' are incompatible.
+        Type 'Operator<any, R>' is not assignable to type 'Operator<any, T>'.
+          Type 'R' is not assignable to type 'T'.
+Child html-webpack-plugin for "index.html":
+    chunk    {0} index.html 296 bytes [entry] [rendered]
+webpack: Failed to compile.
+webpack: Compiling...
+ 94% asset optimization                                                            
+[at-loader] Checking started in a separate process...
+
+[at-loader] Checking finished with 3 errors
+chunk    {0} vendor.bundle.js (vendor) 2.74 MB {2} [initial]
+chunk    {1} app.bundle.js, 1.1ae7a3f1873f0dc90b65.hot-update.js (app) 2.84 kB {0} [initial] [rendered]
+chunk    {2} polyfills.bundle.js (polyfills) 517 kB [entry] [rendered]
+
+ERROR in [at-loader] ./node_modules/@types/node/index.d.ts:20:1 
+    TS1084: Invalid 'reference' directive syntax.
+
+ERROR in [at-loader] ./node_modules/rxjs/Subject.d.ts:24:5 
+    TS2416: Property 'lift' in type 'Subject<T>' is not assignable to the same property in base type 'Observable<T>'.
+  Type '<R>(operator: Operator<T, R>) => Observable<T>' is not assignable to type '<R>(operator: Operator<T, R>) => Observable<R>'.
+    Type 'Observable<T>' is not assignable to type 'Observable<R>'.
+      Type 'T' is not assignable to type 'R'.
+
+ERROR in [at-loader] ./node_modules/rxjs/observable/dom/WebSocketSubject.d.ts:44:5 
+    TS2416: Property 'lift' in type 'WebSocketSubject<T>' is not assignable to the same property in base type 'AnonymousSubject<T>'.
+  Type '<R>(operator: Operator<T, R>) => WebSocketSubject<R>' is not assignable to type '<R>(operator: Operator<T, R>) => Observable<T>'.
+    Type 'WebSocketSubject<R>' is not assignable to type 'Observable<T>'.
+      Types of property 'operator' are incompatible.
+        Type 'Operator<any, R>' is not assignable to type 'Operator<any, T>'.
+          Type 'R' is not assignable to type 'T'.
+Child html-webpack-plugin for "index.html":
+    chunk    {0} index.html 296 bytes [entry]
+webpack: Failed to compile.
+^C
+phoujdar@phoujdar:~/workspace-one/angularWebpackDemo$ npm start
+
+> angularWebpackDemo@1.0.0 start /home/phoujdar/workspace-one/angularWebpackDemo
+> webpack-dev-server --inline --hot --progress --port 8080
+
+ 10% building modules 3/3 modules 0 active                                         
+Project is running at http://localhost:8080/
+webpack output is served from /
+404s will fallback to /index.html
+ 10% building modules 5/11 modules 6 active ...o/node_modules/webpack/hot/emitter.js
+[at-loader] Using typescript@2.9.2 from typescript and "tsconfig.json" from /home/phoujdar/workspace-one/angularWebpackDemo/tsconfig.json.
+
+ 94% asset optimization                                                                  
+[at-loader] Checking started in a separate process...
+
+[at-loader] Checking finished with 3 errors
+chunk    {0} vendor.bundle.js (vendor) 2.74 MB {2} [initial] [rendered]
+chunk    {1} app.bundle.js (app) 2.84 kB {0} [initial] [rendered]
+chunk    {2} polyfills.bundle.js (polyfills) 517 kB [entry] [rendered]
+
+ERROR in [at-loader] ./node_modules/@types/node/index.d.ts:20:1 
+    TS1084: Invalid 'reference' directive syntax.
+
+ERROR in [at-loader] ./node_modules/rxjs/Subject.d.ts:24:5 
+    TS2416: Property 'lift' in type 'Subject<T>' is not assignable to the same property in base type 'Observable<T>'.
+  Type '<R>(operator: Operator<T, R>) => Observable<T>' is not assignable to type '<R>(operator: Operator<T, R>) => Observable<R>'.
+    Type 'Observable<T>' is not assignable to type 'Observable<R>'.
+      Type 'T' is not assignable to type 'R'.
+
+ERROR in [at-loader] ./node_modules/rxjs/observable/dom/WebSocketSubject.d.ts:44:5 
+    TS2416: Property 'lift' in type 'WebSocketSubject<T>' is not assignable to the same property in base type 'AnonymousSubject<T>'.
+  Type '<R>(operator: Operator<T, R>) => WebSocketSubject<R>' is not assignable to type '<R>(operator: Operator<T, R>) => Observable<T>'.
+    Type 'WebSocketSubject<R>' is not assignable to type 'Observable<T>'.
+      Types of property 'operator' are incompatible.
+        Type 'Operator<any, R>' is not assignable to type 'Operator<any, T>'.
+          Type 'R' is not assignable to type 'T'.
+Child html-webpack-plugin for "index.html":
+    chunk    {0} index.html 296 bytes [entry] [rendered]
+webpack: Failed to compile.
+^C
+phoujdar@phoujdar:~/workspace-one/angularWebpackDemo$ npm i typescript@2.3.4
+npm WARN @angular/compiler-cli@4.4.7 requires a peer of @angular/compiler@4.4.7 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/compiler-cli@4.4.7 requires a peer of @angular/core@4.4.7 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/platform-server@4.4.7 requires a peer of @angular/animations@4.4.7 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/platform-server@4.4.7 requires a peer of @angular/core@4.4.7 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/platform-server@4.4.7 requires a peer of @angular/common@4.4.7 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/platform-server@4.4.7 requires a peer of @angular/compiler@4.4.7 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/platform-server@4.4.7 requires a peer of @angular/platform-browser@4.4.7 but none is installed. You must install peer dependencies yourself.
+npm WARN angularWebpackDemo@1.0.0 No description
+npm WARN angularWebpackDemo@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules/watchpack/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
++ typescript@2.3.4
+updated 1 package and audited 885 packages in 6.249s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+found 29 vulnerabilities (17 low, 2 moderate, 9 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+phoujdar@phoujdar:~/workspace-one/angularWebpackDemo$ npm start
+
+> angularWebpackDemo@1.0.0 start /home/phoujdar/workspace-one/angularWebpackDemo
+> webpack-dev-server --inline --hot --progress --port 8080
+
+ 10% building modules 3/3 modules 0 active                                         
+Project is running at http://localhost:8080/
+webpack output is served from /
+404s will fallback to /index.html
+ 10% building modules 5/11 modules 6 active ...o/node_modules/webpack/hot/emitter.js
+[at-loader] Using typescript@2.3.4 from typescript and "tsconfig.json" from /home/phoujdar/workspace-one/angularWebpackDemo/tsconfig.json.
+
+ 94% asset optimization                                                                  
+[at-loader] Checking started in a separate process...
+
+[at-loader] Checking finished with 1 errors
+chunk    {0} vendor.bundle.js (vendor) 2.74 MB {2} [initial] [rendered]
+chunk    {1} app.bundle.js (app) 2.84 kB {0} [initial] [rendered]
+chunk    {2} polyfills.bundle.js (polyfills) 517 kB [entry] [rendered]
+
+ERROR in [at-loader] ./node_modules/@types/node/index.d.ts:20:1 
+    TS1084: Invalid 'reference' directive syntax.
+Child html-webpack-plugin for "index.html":
+    chunk    {0} index.html 296 bytes [entry] [rendered]
+webpack: Failed to compile.
+^C
+phoujdar@phoujdar:~/workspace-one/angularWebpackDemo$ npm start
+
+> angularWebpackDemo@1.0.0 start /home/phoujdar/workspace-one/angularWebpackDemo
+> webpack-dev-server --inline --hot --progress --port 8080
+
+ 10% building modules 3/3 modules 0 active                                         
+Project is running at http://localhost:8080/
+webpack output is served from /
+404s will fallback to /index.html
+ 10% building modules 5/11 modules 6 active ...o/node_modules/webpack/hot/emitter.js
+[at-loader] Using typescript@2.3.4 from typescript and "tsconfig.json" from /home/phoujdar/workspace-one/angularWebpackDemo/tsconfig.json.
+
+ 94% asset optimization                                                                  
+[at-loader] Checking started in a separate process...
+
+[at-loader] Checking finished with 1 errors
+chunk    {0} vendor.bundle.js (vendor) 2.74 MB {2} [initial] [rendered]
+chunk    {1} app.bundle.js (app) 2.84 kB {0} [initial] [rendered]
+chunk    {2} polyfills.bundle.js (polyfills) 517 kB [entry] [rendered]
+
+ERROR in [at-loader] ./node_modules/@types/node/index.d.ts:20:1 
+    TS1084: Invalid 'reference' directive syntax.
+Child html-webpack-plugin for "index.html":
+    chunk    {0} index.html 296 bytes [entry] [rendered]
+webpack: Failed to compile.
+webpack: Compiling...
+ 94% asset optimization                
+[at-loader] Checking started in a separate process...
+
+[at-loader] Checking finished with 1 errors
+chunk    {0} vendor.bundle.js (vendor) 2.74 MB {2} [initial]
+chunk    {1} app.bundle.js (app) 2.84 kB {0} [initial]
+chunk    {2} polyfills.bundle.js (polyfills) 517 kB [entry]
+
+ERROR in [at-loader] ./node_modules/@types/node/index.d.ts:20:1 
+    TS1084: Invalid 'reference' directive syntax.
+Child html-webpack-plugin for "index.html":
+    chunk    {0} index.html 296 bytes [entry]
+webpack: Failed to compile.
+webpack: Compiling...
+ 94% asset optimization                
+[at-loader] Checking started in a separate process...
+
+[at-loader] Checking finished with 1 errors
+chunk    {0} vendor.bundle.js (vendor) 2.74 MB {2} [initial]
+chunk    {1} app.bundle.js (app) 2.84 kB {0} [initial]
+chunk    {2} polyfills.bundle.js (polyfills) 517 kB [entry]
+
+ERROR in [at-loader] ./node_modules/@types/node/index.d.ts:20:1 
+    TS1084: Invalid 'reference' directive syntax.
+Child html-webpack-plugin for "index.html":
+    chunk    {0} index.html 296 bytes [entry]
+webpack: Failed to compile.
+webpack: Compiling...
+ 94% asset optimization                
+[at-loader] Checking started in a separate process...
+
+[at-loader] Checking finished with 1 errors
+chunk    {0} vendor.bundle.js (vendor) 2.74 MB {2} [initial]
+chunk    {1} app.bundle.js (app) 2.84 kB {0} [initial]
+chunk    {2} polyfills.bundle.js (polyfills) 517 kB [entry]
+
+ERROR in [at-loader] ./node_modules/@types/node/index.d.ts:20:1 
+    TS1084: Invalid 'reference' directive syntax.
+Child html-webpack-plugin for "index.html":
+    chunk    {0} index.html 296 bytes [entry]
+webpack: Failed to compile.
+webpack: Compiling...
+ 94% asset optimization                
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.28 sec.
+chunk    {0} vendor.bundle.js (vendor) 2.74 MB {2} [initial]
+chunk    {1} app.bundle.js (app) 2.84 kB {0} [initial]
+chunk    {2} polyfills.bundle.js (polyfills) 517 kB [entry]
+Child html-webpack-plugin for "index.html":
+    chunk    {0} index.html 296 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+ 94% asset optimization                
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.004 sec.
+chunk    {0} vendor.bundle.js (vendor) 2.74 MB {2} [initial]
+chunk    {1} app.bundle.js (app) 2.84 kB {0} [initial]
+chunk    {2} polyfills.bundle.js (polyfills) 517 kB [entry]
+Child html-webpack-plugin for "index.html":
+    chunk    {0} index.html 296 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+ 94% asset optimization                
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.224 sec.
+chunk    {0} vendor.bundle.js (vendor) 2.74 MB {2} [initial]
+chunk    {1} app.bundle.js (app) 2.84 kB {0} [initial]
+chunk    {2} polyfills.bundle.js (polyfills) 517 kB [entry]
+Child html-webpack-plugin for "index.html":
+    chunk    {0} index.html 296 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+ 94% asset optimization                
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.201 sec.
+chunk    {0} vendor.bundle.js (vendor) 2.74 MB {2} [initial]
+chunk    {1} app.bundle.js (app) 2.84 kB {0} [initial]
+chunk    {2} polyfills.bundle.js (polyfills) 517 kB [entry]
+Child html-webpack-plugin for "index.html":
+    chunk    {0} index.html 296 bytes [entry]
+webpack: Compiled successfully.
